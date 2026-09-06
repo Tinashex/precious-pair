@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schema.up.railway.app/railway.json",
+  "build": {
+    "builder": "nixpacks",
+    "buildCommand": "npm install"
+  },
+  "deploy": {
+    "startCommand": "npm start",
+    "restartPolicyType": "onFailure"
+  }
+}
